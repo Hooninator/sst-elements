@@ -14,6 +14,8 @@ comp_LTLIBRARIES = libember.la
 libember_la_SOURCES = \
 	embergen.h \
 	embergen.cc	\
+    simulator/spmm_motif.h \
+    simulator/spmm_motif.cpp \
 	embermap.h \
 	ember.cc \
 	emberengine.h  \
